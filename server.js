@@ -2,9 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://joanb2:password8@ds223161.mlab.com:23161/vast-castle-76082', {
-    useMongoClient: true
-});
+mongoose.connect('mongodb://joanb2:password8@ds223161.mlab.com:23161/vast-castle-76082');
 
 const userSchema = new Schema({
     name: String,
