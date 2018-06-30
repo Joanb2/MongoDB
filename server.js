@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://admin:password88@ds223161.mlab.com:23161/vast-castle-76082').catch(console.error('app cannot start'));
+mongoose.connect('mongodb://admin:haslo5@ds125021.mlab.com:25021/vast-castle-76082').catch(console.error('app cannot start'));
 
 const userSchema = new Schema({
     name: String,
